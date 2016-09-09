@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "cen3031.hostelsolutions.tuesdays.AppController">
+   <children>
+      <TextField fx:id="userID" layoutX="96.0" layoutY="63.0" />
+      <PasswordField fx:id="passwordEntry" layoutX="96.0" layoutY="96.0" />
+      <Button fx:id="labelLogin" layoutX="96.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleLoginButtonPressed" onMouseClicked="#handleLoginButtonPressed" prefHeight="38.0" prefWidth="61.0" text="Login" />
+      <Button fx:id="labelExit" layoutX="179.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleExitButtonPressed" onMouseClicked="#handleExitButtonPressed" prefHeight="38.0" prefWidth="61.0" text="Exit" />
+      <Label fx:id="labelID" layoutX="52.0" layoutY="67.0" text="User ID" />
+      <Label fx:id="labelPass" layoutX="41.0" layoutY="100.0" text="Password" />
+   </children>
+</AnchorPane>
