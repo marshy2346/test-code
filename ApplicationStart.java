@@ -23,7 +23,7 @@ public class ApplicationStart extends Application {
 	            AnchorPane page = (AnchorPane) FXMLLoader.load(ApplicationStart.class.getResource("login.fxml"));
 	            Scene scene = new Scene(page);
 				primaryStage.setScene(scene);
-	            primaryStage.setTitle("FXML is Simple");
+	            primaryStage.setTitle("Login");
 	            primaryStage.show();
 	        } catch (Exception ex) {
 	            Logger.getLogger(ApplicationStart.class.getName()).log(Level.SEVERE, null, ex);
